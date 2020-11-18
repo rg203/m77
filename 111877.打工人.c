@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main(){
 int n;
+printf("			打工人工资等级划分			\n");
 scanf("%d",&n);
 if(n>=-100000 && n<=-1){
 printf("你还有花呗没还，无法使用该程序\n");}
@@ -12,4 +13,8 @@ else if(n>=3001 && n<=5000){
 	printf("普通清洁工\n");}
 else if(n>=5001 && n<=12000){
 printf("水电工工资\n");}
+else if(n>=12001 && n<=50000){
+printf("脑袋大脖子粗不是老板就是伙夫\n");}
+else if(n>=50001 && n<=20000000000){
+printf("程序员\n");}
 }
